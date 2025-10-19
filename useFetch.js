@@ -20,10 +20,6 @@ export const useFetch = (url, options = {}) => {
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
 
-  /**
-   * Fetches data from the provided URL.
-   * Sets loading, handles success/error, and updates state.
-   */
   const fetchData = useCallback(async () => {
     if (!url) {
       setError('URL is required');
