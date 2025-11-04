@@ -3,11 +3,11 @@ import { useState, useEffect } from "react";
 
 /**
  * useSessionStorage - Syncs state with sessionStorage
- *
+ 
  * @param {string} key - The key to store the value under
  * @param {*} initialValue - The default value to use if key not found
  * @returns {[any, Function]} - [storedValue, setStoredValue]
- *
+ 
  * Example:
  * const [user, setUser] = useSessionStorage("user", null);
  */
