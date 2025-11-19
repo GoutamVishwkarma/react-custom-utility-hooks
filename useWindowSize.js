@@ -22,3 +22,6 @@ export function useWindowSize() {
 
   return windowSize;
 }
+
+// Usage:
+// const { width, height } = useWindowSize();
