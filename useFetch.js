@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback } from 'react';
 
 /**
- * Custom hook to fetch data from an API endpoint.
+ *  hook to fetch data from an API endpoint.
  *
  * @param {string} url - The API endpoint to fetch from.
  * @param {Object} [options] - Optional configuration object.
