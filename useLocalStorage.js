@@ -13,7 +13,7 @@ export function useLocalStorage(key, initialValue) {
     }
   });
 
-  // Update localStorage whenever value changes
+  // Update  whenever value changes
   useEffect(() => {
     try {
       localStorage.setItem(key, JSON.stringify(value));
