@@ -1,5 +1,25 @@
 import { useState, useEffect } from 'react';
 
+/**
+ * useOnlineStatus Hook
+ * 
+ * Tracks the user's online/offline status.
+ * Returns true when online, false when offline.
+ * 
+ * @returns {boolean} isOnline - Current online status
+ * 
+ * @example
+ * function NetworkStatus() {
+ *   const isOnline = useOnlineStatus();
+ * 
+ *   return (
+ *     <div>
+ *       <p>Status: {isOnline ? '🟢 Online' : '🔴 Offline'}</p>
+ *       {!isOnline && <p>Please check your internet connection</p>}
+ *     </div>
+ *   );
+ * }
+ */
 
 const useOnlineStatus = () => {
   const [isOnline, setIsOnline] = useState(
